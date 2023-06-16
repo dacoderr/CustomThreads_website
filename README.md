@@ -1,4 +1,4 @@
-# Project Name
+# CustomThreads
 
 This is a sample project showcasing a services website. The website allows users to select various services and add them to the cart for purchase.
 
