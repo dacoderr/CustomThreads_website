@@ -1,0 +1,30 @@
+{
+    "subServices": [
+      {
+        "id": 1,
+        "name": "Patching up torn garments",
+        "price": 10
+      },
+      {
+        "id": 2,
+        "name": "Fixing broken zippers",
+        "price": 5
+      },
+      {
+        "id": 3,
+        "name": "Replacing buttons",
+        "price": 3
+      },
+      {
+        "id": 4,
+        "name": "Mending ripped seams",
+        "price": 3
+      },
+      {
+        "id": 5,
+        "name": "Restoring damaged hems",
+        "price": 8
+      }
+    ]
+  }
+  

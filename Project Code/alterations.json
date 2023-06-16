@@ -1,0 +1,30 @@
+{
+    "subServices": [
+      {
+        "id": 1,
+        "name": "Hemming pants and skirts",
+        "price": 7
+      },
+      {
+        "id": 2,
+        "name": "Taking in or letting out waistbands",
+        "price": 8
+      },
+      {
+        "id": 3,
+        "name": "Shortening or lengthening sleeves",
+        "price": 6
+      },
+      {
+        "id": 4,
+        "name": "Resizing garments for a better fit",
+        "price": 15
+      },
+      {
+        "id": 5,
+        "name": "Adjusting dress or shirt lengths",
+        "price": 12
+      }
+    ]
+  }
+  

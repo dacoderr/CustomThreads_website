@@ -1,0 +1,30 @@
+{
+    "subServices": [
+      {
+        "id": 1,
+        "name": "Custom-made suits",
+        "price": 35
+      },
+      {
+        "id": 2,
+        "name": "Bespoke dresses and gowns",
+        "price": 30
+      },
+      {
+        "id": 3,
+        "name": "Tailored trousers and skirts",
+        "price": 25
+      },
+      {
+        "id": 4,
+        "name": "Formalwear alterations",
+        "price": 20
+      },
+      {
+        "id": 5,
+        "name": "Traditional clothing tailoring",
+        "price": 25
+      }
+    ]
+  }
+  

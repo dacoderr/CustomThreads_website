@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CustomThreads - Tailoring Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" type="text/css" href="services_style.css">
+  <link rel="stylesheet" type="text/css" href="project.css">
+  
+</head>
+<body>
+
+<header class="header">
+    <div class="logo-container">
+      <img src="/content/logo.png" alt="Random Logo" class="logo">
+      <h1 class="brand">CustomThreads</h1>
+    </div>
+    <div class="menu">
+        <button id="home-btn">Home</button>
+
+      
+</header>
+
+<hr>
+<div id="cart">
+  <h2>CART</h2>
+  <ul id="cart-items"></ul>
+  <div id="cart-total"></div>
+  <button id="checkout-btn">Proceed to Payment</button>
+</div>
+
+<hr>
+
+<main class="main">
+
+  <section id="repairs-section" class="service-section">
+      <div class="service-content">
+        <div class="service-image">
+          <img src="/content/Repairs_pic.jpg" alt="Repairs Image" style="width: 200px; height: auto; border: 6px solid black;">
+
+        </div>
+        <div class="service-details">
+          <h2>Repairs</h2>
+          <p>Our skilled tailors are experts in repairing garments. We offer services such as patching up torn garments, fixing broken zippers, replacing buttons, mending ripped seams, and restoring damaged hems. With our attention to detail and quality craftsmanship, we'll ensure your garments are repaired to perfection.</p>
+          
+        </div>
+        <div class="service-actions">
+          <div class="service-price">
+            <select id="repairs-select" class="sub-service-select">
+              <option value="0">Select a sub-service</option>
+              <option value="1">Patching up torn garments</option>
+              <option value="2">Fixing broken zippers</option>
+              <option value="3">Replacing buttons</option>
+              <option value="4">Mending ripped seams</option>
+              <option value="5">Restoring damaged hems</option>
+            </select>
+            <input id="repairs-quantity" type="number" placeholder="Quantity" min="1">
+            <p id="repairs-price">Price: $0</p>
+          </div>
+          <button id="repairs-add-to-cart" class="add-to-cart" style="background-color: green; color: white;">Add to Cart</button>
+
+        </div>
+      </div>
+    </section>
+  
+    <hr>
+
+    <section id="alterations-section" class="service-section">
+        <div class="service-content">
+          <div class="service-image">
+            <img src="/content/Alterations_pic.jpg" alt="alterations Image" style="width: 200px; height: auto;border: 6px solid black;">
+          </div>
+          <div class="service-details">
+            <h2>Alterations</h2>
+            <p>Whether you need adjustments for a better fit or want to transform your clothing, our alteration services are here to help. Our experienced tailors specialize in hemming pants and skirts, taking in or letting out waistbands, shortening or lengthening sleeves, resizing garments for a better fit, and adjusting dress or shirt lengths. We'll tailor your clothing to your specific measurements, ensuring a comfortable and stylish fit.</p>
+            
+          </div>
+          <div class="service-actions">
+            <div class="service-price">
+              <select id="alterations-select" class="sub-service-select">
+                <option value="0">Select a sub-service</option>
+                <option value="1">Hemming pants and skirts</option>
+                <option value="2">Taking in or letting out waistbands</option>
+                <option value="3">Shortening or lengthening sleeves</option>
+                <option value="4">Resizing garments for a better fit</option>
+                <option value="5">Adjusting dress or shirt lengths</option>
+              </select>
+              <input id="alterations-quantity" type="number" placeholder="Quantity" min="1">
+              <p id="alterations-price">Price: $0</p>
+            </div>
+            <button id="alterations-add-to-cart" class="add-to-cart" style="background-color: green; color: white;">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="clothing-section" class="service-section">
+        <div class="service-content">
+          <div class="service-image">
+            <img src="/content/Clothing_pic.jpg" alt="clothing Image" style="width: 200px; height: auto;border: 6px solid black;">
+          </div>
+          <div class="service-details">
+            <h2>Clothing</h2>
+            <p>For truly unique and personalized garments, our clothing services have got you covered. We offer custom-made suits, tailored trousers and skirts, and bespoke dresses and gowns designed to make you look and feel exceptional. Additionally, we provide formalwear alterations to ensure your special occasion attire fits perfectly. Our skilled tailors are also experienced in traditional clothing tailoring, catering to ethnic wear and cultural attire with utmost care and precision.</p>
+          
+          </div>
+          <div class="service-actions">
+            <div class="service-price">
+              <select id="clothing-select" class="sub-service-select">
+                <option value="0">Select a sub-service</option>
+                <option value="1">Custom-made suits</option>
+                <option value="2">Bespoke dresses and gowns</option>
+                <option value="3">Tailored trousers and skirts</option>
+                <option value="4">Formalwear alterations</option>
+                <option value="5">Traditional clothing tailoring</option>
+              </select>
+              <input id="clothing-quantity" type="number" placeholder="Quantity" min="1">
+              <p id="clothing-price">Price: $0</p>
+            </div>
+            <button id="clothing-add-to-cart" class="add-to-cart" style="background-color: green; color: white;">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="embroidery-section" class="service-section">
+        <div class="service-content">
+          <div class="service-image">
+            <img src="/content/embroidery_pic.png" alt="embroidery Image" style="width: 200px; height: auto;border: 6px solid black;">
+          </div>
+          <div class="service-details">
+            <h2>Embroidery</h2>
+            <p>Elevate your garments with our 'Custom Embroidery' service. Our skilled artisans create exquisite and unique embroidery designs that reflect your personal style. From intricate patterns to personalized monograms, we use the finest threads and state-of-the-art machines to bring your vision to life. Add a personal touch to your shirts, jackets, or dresses and turn them into wearable works of art.</p>
+          
+          </div>
+          <div class="service-actions">
+            <div class="service-price">
+              <select id="embroidery-select" class="sub-service-select">
+                <option value="0">Select a sub-service</option>
+                <option value="1">Monogramming</option>
+                <option value="2">Logo Embroidery</option>
+                <option value="3">Patchwork Embroidery</option>
+                <option value="4">Embellishment Embroidery</option>
+              </select>
+              <input id="embroidery-quantity" type="number" placeholder="Quantity" min="1">
+              <p id="embroidery-price">Price: $0</p>
+            </div>
+            <button id="embroidery-add-to-cart" class="add-to-cart" style="background-color: green; color: white;">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+  </main>
+  <hr>
+  
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <img src="/Content/logo.png" alt="Footer Logo" class="footer-logo">
+      <div class="contact-details">
+        <p>Contact: +1234567890</p>
+        <p>Email: info@customthreads.com</p>
+      </div>
+    </div>
+    <div class="address">
+      <h3>Address:</h3>
+      <p>123 Al Nahda empire building, Street 17A, Dubai, UAE</p>
+    </div>
+    <div></div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="servicesFun.js"></script>
+  <script src="cart.js"></script>
+</body>
+</html>
+
+
+<style>
+  #cart {
+    background-color: lightgrey;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  #cart h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 5px;
+  }
+  
+  #cart-total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #checkout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: #fff;
+  }
+  
+  </style>
